@@ -5,7 +5,7 @@ class CalculadoraIMC:
  def __init__(self, root):
   self.root = root
   self.root.title("Calculadora de IMC")
-  self.root.geometry("400x500")
+  self.root.geometry("250x550")
   self.root.resizable(False, False)
   self.root.configure(bg="#f0f0f0")
   
